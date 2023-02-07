@@ -1,6 +1,6 @@
 # UITextFieldFocusWithKeyboardExample
 <div>
-<img src="https://user-images.githubusercontent.com/6063541/217266535-95cbb712-f4fc-464e-831e-80fb4b220cc5.png" width="300">
-　　
-<img src="https://user-images.githubusercontent.com/6063541/217266563-d58da898-2f84-4634-86aa-d2ff9e878d47.png" width="300">
+<img width="250" alt="スクリーンショット 2023-02-07 23 05 40" src="https://user-images.githubusercontent.com/6063541/217267136-c27f777c-6c9c-468d-8b8d-b4c9b8fa477e.png">
+  　　
+<img width="250" alt="スクリーンショット 2023-02-07 23 05 44" src="https://user-images.githubusercontent.com/6063541/217267145-6300a951-118e-478c-a271-8633b8435fe8.png">
 </div>
