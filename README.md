@@ -9,3 +9,26 @@
 - Place UITableView inside UIScrollView
 
 <img width="600" alt="スクリーンショット 2023-02-07 22 59 49" src="https://user-images.githubusercontent.com/6063541/217267547-53d4cf53-8840-4f93-8bee-10a7fb1044e5.png">
+
+- Custom UItableViewCell With UITextFieldDelegate like this
+
+```
+class TextFieldTableViewCell: UITableViewCell {
+
+    var scrollView : UIScrollView? = nil
+
+```
+
+```
+extension TextFieldTableViewCell: UITextFieldDelegate {
+    
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        if let scrollView = self.scrollView {
+            let window = UIWindow(frame: UIScreen.main.bounds)
+            let y = textField.superview!.convert(textField.frame.origin, to: scrollView).y + textField.frame.size.height
+            let margin = scrollView.frame.size.height - window.frame.size.height / 2.0 - 40.0
+            scrollView.setContentOffset(CGPoint(x: 0.0, y: y - margin), animated: true)
+        }
+        return true
+    }
+```
