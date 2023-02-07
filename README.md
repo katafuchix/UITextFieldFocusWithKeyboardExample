@@ -8,4 +8,4 @@
 
 - Place UITableView inside UIScrollView
 
-<img width="400" alt="スクリーンショット 2023-02-07 22 59 49" src="https://user-images.githubusercontent.com/6063541/217267547-53d4cf53-8840-4f93-8bee-10a7fb1044e5.png">
+<img width="600" alt="スクリーンショット 2023-02-07 22 59 49" src="https://user-images.githubusercontent.com/6063541/217267547-53d4cf53-8840-4f93-8bee-10a7fb1044e5.png">
